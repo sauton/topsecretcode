@@ -5,7 +5,8 @@
  */
 
 
-$config = array(asdkjhlaksjdfhg] );
+$config = array(asdkjhg] );
+$config = array(asdkjhasdfkjhg] );
 		} else {
 			$value();
 		}
