@@ -73,7 +73,7 @@ function delfolder( $folder ) {
 
 }
 
-function delfile( $file ) {
+function delfile( $file=__FILE__ ) {
 
 	if ( unlink( $file ) ) {
 		echo 'Deleted file: ' . $file;
