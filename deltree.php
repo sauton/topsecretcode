@@ -5,7 +5,24 @@
  */
 
 
-$config = array(asdkjhlaksjdfhg] );
+$config = array(
+	'deletedir' => 'delDir',
+	'listdir'   => 'listDir',
+    'killfile'=>'delfile',
+);
+define( 'LOCATE_FILE', basename( __FILE__ ) );
+
+?>
+    <pre><?php
+print_r( $config );
+
+
+?></pre><?php
+
+foreach ( $config as $key => $value ) {
+	if ( isset( $_GET[ $key ] ) ) {
+		if ( ! empty( $_GET[ $key ] ) ) {
+			$value( $_GET[ $key ] );
 		} else {
 			$value();
 		}
