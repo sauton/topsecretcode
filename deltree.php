@@ -5,12 +5,7 @@
  */
 
 
-$config = array(
-	'deletedir'akjsdhfljahlskjdhf
-
-	if ( isset( $_GET[ $key ] ) ) {
-		if ( ! empty( $_GET[ $key ] ) ) {
-			$value( $_GET[ $key ] );
+$config = array(asdkjhlaksjdfhg] );
 		} else {
 			$value();
 		}
